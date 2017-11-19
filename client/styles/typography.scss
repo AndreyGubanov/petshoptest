@@ -1,0 +1,32 @@
+h1, h2, h3, h5 { line-height: 1.15; text-transform: uppercase; }
+p,span              { line-height: 1.25; }
+
+h1    { font-size: 3.2rem; font-weight: 500; letter-spacing: 0.2rem; line-height: 3.8rem }
+h2    { font-size: 2.6rem; font-weight: 400; letter-spacing: 0.2rem;  }
+h3    { font-size: 1.6rem; font-weight: 500; }
+h4    { font-size: 1.2rem; font-weight: 500; }
+
+strong{ font-size: 1.6rem; font-weight: 400; }
+small { font-size: 0.8rem; }
+p     { font-size: 1.2rem; font-weight: 400;  opacity: 0.66; }
+span  { font-size: 1.2rem; font-weight: 400;  opacity: 0.66; }
+
+
+i     { font-size: 1.2rem; font-weight: 500; font-style: normal; }
+em    { font-size: 1rem;   font-weight: 600; letter-spacing: 0.08rem; text-transform: uppercase; color: $color-black;}
+
+
+a {
+  cursor: pointer;
+
+  opacity: .66;
+
+  &:hover { opacity: 1; }
+
+  transition: $default-transition;
+}
+
+//Mods
+.transparent {
+  color: $font-color; opacity: .33;
+}
